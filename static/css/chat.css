@@ -1,0 +1,72 @@
+
+body {
+    background-color: rgb(2, 0, 25);
+    color: #00FF00; /* Hacker green color */
+}
+.chat-container {
+    max-width: 600px;
+    margin: auto;
+    padding: 2rem;
+    background-color: rgba(4, 1, 38, 0.652);
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 255, 0, 0.5);
+    height: 80vh; /* Set height for chat area */
+    display: flex;
+    flex-direction: column;
+}
+.messages {
+    flex: 1;
+    overflow-y: auto; /* Enable scrolling */
+    margin-bottom: 1rem;
+    padding: 1rem;
+    background-color: rgba(0, 0, 0, 0.5);
+    border-radius: 8px;
+    border: 1px solid rgba(0, 255, 0, 0.3);
+}
+.message {
+    margin: 0.5rem 0;
+    padding: 0.5rem;
+    border-radius: 5px;
+    background-color: rgba(0, 255, 0, 0.1);
+    transition: background-color 0.3s;
+}
+.message:hover {
+    background-color: rgba(0, 255, 0, 0.2);
+}
+.form-label {
+    color: #00FF00; /* Hacker green color */
+}
+.input-group {
+    margin-top: 1rem;
+}
+.form-control {
+    background-color: rgba(0, 0, 0, 0.7);
+    border: 1px solid rgba(0, 255, 0, 0.5);
+    color: #00FF00; /* Hacker green color */
+}
+.form-control:focus {
+    background-color: rgba(0, 0, 0, 0.8);
+    border-color: #00FF00; /* Hacker green color */
+    box-shadow: 0 0 5px rgba(0, 255, 0, 0.5);
+}
+.btn-primary {
+    color: rgb(2, 0, 25);
+    background-color: #00FF00; /* Hacker green color */
+    border: none;
+}
+.btn-primary:hover {
+    background-color: #00cc00; /* Darker green on hover */
+}
+#messageInput {
+    background-color: rgba(0, 0, 0, 0); /* Set background color to black */
+    color: #00cc00; /* Set text color to green */
+}
+
+#messageInput::placeholder {
+    color: #00cc00; /* Set placeholder text color to green */
+}
+#messageSubmit {
+    background-color: rgba(0, 0, 0, 0);
+    color: #00cc00; /* Set text color to green */
+
+}

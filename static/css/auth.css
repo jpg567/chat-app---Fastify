@@ -1,0 +1,24 @@
+body {
+    background-color: rgb(2, 0, 25);
+    color: #00FF00; /* Hacker green color */
+}
+.login-container, .signup-container {
+    max-width: 400px;
+    margin: auto;
+    padding: 2rem;
+    background-color: rgba(4, 1, 38, 0.652);
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 255, 0, 0.5);
+    display: none; /* Initially hidden */
+}
+.form-label {
+    color: #00FF00; /* Hacker green color */
+}
+.btn-primary {
+    color: rgb(2, 0, 25);
+    background-color: #00FF00; /* Hacker green color */
+    border: none;
+}
+.btn-primary:hover {
+    background-color: #00cc00; /* Darker green on hover */
+}
